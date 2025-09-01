@@ -82,7 +82,7 @@ app.get('/todo', function (req, res) {
 
     .listen(port, function () {
         // Logging to console
-        console.log(`Todot ni/0.0.0.0:${port}`)
+        console.log(`Todot ni/ 0.0.0:${port}`)
     });
 // Export app
 module.exports = app;
